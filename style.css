@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 250px;
+    height: 300px;
+    background-color: black;
+    border-radius: 7px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+p{
+    font-family: sans-serif;
+    line-height: 2;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(120deg , black , white , black) ;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: -500%;
+    color: transparent;
+    transition: 4s;
+}
+p:hover{
+    background-position: 100%;
+    background-size: 100%;
+}
